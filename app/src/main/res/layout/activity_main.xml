@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <ImageView
@@ -29,7 +28,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/montserrat_semi_bold"
         android:textSize="20sp"
-        android:text="DTS Kominfo"
+        android:text="@string/logo_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />

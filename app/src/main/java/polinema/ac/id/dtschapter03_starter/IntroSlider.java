@@ -22,7 +22,7 @@ public class IntroSlider extends AppCompatActivity {
         List<Fragment> list = new ArrayList<>();
         list.add(new WelcomeSlideAssign());
         list.add(new WelcomeSlideCalendar());
-        list.add(new WelcomeSlideSuperhero());
+        list.add(new WelcomeSlideSuperHero());
 
         pager = findViewById(R.id.pager);
         pagerAdapter = new SliderPagerAdapter(getSupportFragmentManager(),list);
